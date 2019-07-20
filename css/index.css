@@ -71,6 +71,40 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px 45px 0px;
+}
+
+header img {
+    height: 50px;
+    display: flex;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header nav a {
+    text-decoration-line: none;
+    color: black;
+    margin: 0px 40px;
+}
+
+header nav a:hover {
+    color: darkgray;
+}
+
+.banner {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;

@@ -218,3 +218,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page Starts Here */
+
+.aboutsection {
+    padding: 20px;
+    border-bottom: 2px dotted gray;
+}
+
+.content-about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.content-about .content-item {
+    width: 46%;
+    border-bottom: 2px dotted gray;
+    margin-bottom: 50px;
+}
+
+.content-about .content-item img {
+    margin-bottom: 10px;
+}
+
+.content-about .content-item .button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: black;
+}
+
+.content-about .content-item a {
+    text-decoration-line: none;
+}
+
+.content-about .content-item .button:hover {
+    background: black;
+    color: white;
+}
+
+.work-together {
+    padding: 0px 20px;
+    margin-bottom: 40px;
+}
